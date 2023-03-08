@@ -1,3 +1,4 @@
+allow system_app sysfs_leds:dir search;
 rw_dir_file(system_app, sysfs_dm)
 rw_dir_file(system_app, sysfs_fastcharge)
 rw_dir_file(system_app, sysfs_sync)
